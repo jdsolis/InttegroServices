@@ -24496,34 +24496,37 @@ components:
       type: object
       properties:
         companyIdentification:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Tipo Documento / Documento
+                        <p>(Este campo debe ir concatenado Tipo documento + Documento)</p>'
           type: 'string'
         companyName:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Razón Social'
           type: 'string'
         documentType:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Cedula o RIF
+                        <p>(En pantalla deben estar separados en Tipo Documento + Nro Documento)'
           type: 'string'
         documentNumber:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Cedula o RIF
+                        <p>(En pantalla deben estar separados en Tipo Documento + Nro Documento)'
           type: 'string'
         userName:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Nombre o Razón social'
           type: 'string'
         biometricValidation:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Autenticación Biométrica (Si – S, No – N)'
           type: 'string'
         executingUser:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Usuario que ejecuta la operación'
           type: 'string'
         role:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Rol del usuario'
           type: 'string'
         office:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Oficina que realiza la modificación'
           type: 'string'
         terminal:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Terminal Nio'
           type: 'string'
       example:
         companyIdentification: J000255431
@@ -24549,25 +24552,25 @@ components:
       type: object
       properties:
         companyIdentification:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         documentType:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Tipo documento de usuario a Autorizar'
           type: 'string'
         documentNumber:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nro Documento usuario a Autorizar'
           type: 'string'
         executingUser:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nombre de usuario a Autorizar'
           type: 'string'
         role:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Rol del usuario que realiza la operacion'
           type: 'string'
         office:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Oficina que realiza la operacion'
           type: 'string'
         terminal:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Terminal'
           type: 'string'
       example:
         companyIdentification: J000255431
@@ -24590,25 +24593,25 @@ components:
       type: object
       properties:
         companyIdentification:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         documentType:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Tipo documento de usuario a eliminar'
           type: 'string'
         documentNumber:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nro Documento usuario a eliminar'
           type: 'string'
         executingUser:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nombre de usuario a eliminar'
           type: 'string'
         role:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Rol del usuario que realiza la operacion'
           type: 'string'
         office:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Oficina que realiza la operacion'
           type: 'string'
         terminal:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Terminal'
           type: 'string'
       example:
         companyIdentification: J000255431
@@ -24631,25 +24634,25 @@ components:
       type: object
       properties:
         companyIdentification:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         documentType:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Tipo documento de usuario a activar'
           type: 'string'
         documentNumber:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nro Documento usuario a activar'
           type: 'string'
         executingUser:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nombre de usuario a activar'
           type: 'string'
         role:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Rol del usuario que realiza la operación'
           type: 'string'
         office:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Oficina que realiza la operación'
           type: 'string'
         terminal:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Terminal'
           type: 'string'
       example:
         companyIdentification: J000255431
@@ -24672,25 +24675,25 @@ components:
       type: object
       properties:
         companyIdentification:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Ubicar en pantalla tipo documento - Documento'
           type: 'string'
         documentType:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Tipo de documento en caso de consultar un usuario en especifico'
           type: 'string'
         documentNumber:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nro de documento en caso de consultar un usuario en especifico'
           type: 'string'
         executingUser:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Nombre de usuario a consultar'
           type: 'string'
         office:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Oficina que realiza la consulta'
           type: 'string'
         terminal:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Terminal que realiza la consulta'
           type: 'string'
         role:
-          description: 'Aqui va la descripcion del campo'
+          description: 'Rol del usuario'
           type: 'string'
       example:
         companyIdentification: J000255431
