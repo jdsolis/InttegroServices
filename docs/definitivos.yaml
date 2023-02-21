@@ -3585,7 +3585,7 @@ paths:
           description: ''
           headers: {}
       deprecated: false
-  /customerrelationship/IntPE84:
+  /customerrelationship/Int :
     post:
       tags:
       - customerrelationship
@@ -7980,19 +7980,19 @@ components:
       type: object
       properties:
         empresa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Entidad 0102 por defecto'
           type: 'string'
         oficina:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina'
           type: 'string'
         numeroDeRegistro:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         ciclo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         grupo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         User:
@@ -8021,16 +8021,16 @@ components:
       type: object
       properties:
         producto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar tabla producto'
           type: 'string'
         subproducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar tabla subproduct'
           type: 'string'
         estado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de opción (Consulta -C)'
           type: 'string'
         numeroMaterial:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Doc y Documento Ver Nota '
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -8131,13 +8131,13 @@ components:
       type: object
       properties:
         cuentaCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cuenta'
           type: 'string'
         divisa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Moneda'
           type: 'string'
         cobrocomision:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo para cobro de comisiones (Si – S, No – N) VER'
           type: 'string'
       example:
         cuentaCliente: '01020359710000021089'
@@ -8634,223 +8634,223 @@ components:
       type: object
       properties:
         codigoCtaCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         importe:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'number'
         importePlanilla:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'number'
         importeCheqBV:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Ubicar valor en pantalla'
           type: 'number'
         importeCheqOB:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla*'
           type: 'number'
         numeroPlanilla:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         ajusteEfectivo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         ajusteChequesBdv:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         ajusteOtrosBanco:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         codigoOperacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaValor:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Valor por defecto'
           type: 'string'
         carta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         autorizar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         guardarAnotado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaHoraOperOff:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto fecha actual'
           type: 'string'
         divisaAbono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de moneda según la transacción'
           type: 'string'
         diasDeRetencion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         porcentajeRetencion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         afectaLiquidacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         serialCmc7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         observaciones:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroDeLibreta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoDctoLph:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroDctoLph:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         divisionLph:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicReversoDepos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cartaPorteDeposito:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         masDatosEnDetalle:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         primeraLlamada:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaDelCheque1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numeroDeCheque1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         importeCheque1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'number'
         dnaCheque1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipoCheque01:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaCheque2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numCheque2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         impCheque2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         dnaCheque2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipCheque02:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaCheque3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numCheque3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         impCheque3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         dnaCheque3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipoCheque03:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaCheque4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numCheque4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla*'
           type: 'string'
         impCheque4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         dnaCheque4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipCheque04:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaCheque5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numCheque5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         impCheque5:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         dnaCheque5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipoCheque05:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaCheque6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numCheque6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         impCheque6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         dnaCheque6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipoCheque06:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaCheque7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numCheque7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         impCheque7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         dnaCheque7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipoCheque07:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         ctaCheque8:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numCheque8:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         impCheque8:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         dnaCheque8:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         tipoCheque08:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -8942,22 +8942,22 @@ components:
       type: object
       properties:
         numeroChequeGerenc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         importeCheque:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'ubicar valor en pantalla'
           type: 'number'
         divisa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de moneda según la transacción'
           type: 'string'
         cuentaAbono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         User:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Usuario que realiza la operación'
           type: 'string'
         Terminal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'ficina donde se realiza la operación'
           type: 'string'
       example:
         numeroChequeGerenc: '2221000059129'
@@ -8992,69 +8992,69 @@ components:
       type: object
       properties:
         codigoCuentaCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla '
           type: 'string'
         importe:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' ubicar valor en pantalla'
           type: 'number'
         codigoOperacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Código de Operación por defecto, cambia según tipo de moneda'
           type: 'integer'
           format: int32
         numeroCheque:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         fechaValor:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         carta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         autorizar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         guardarAnotado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         divisaCargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de moneda según la transacción'
           type: 'string'
         numeroRetencion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         fechaHoraOperOff:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha del día + SS por defecto'
           type: 'string'
         fechaGiro:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         literal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         numeroLibreta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto'
           type: 'integer'
           format: int32
         serial:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Serial compuesto por 13 dígitos: 9(por defecto)6278(código de operación según moneda (timestamp de 8 posiciones)'
           type: 'string'
         numeroPlanilla:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         indicadorTitular:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'SI ES TITULARS - SI NO ES TITULAR N'
           type: 'string'
         Dna:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'DNA CHEQUE BDV'
           type: 'string'
         user:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Usuario que realiza la operación'
           type: 'string'
         terminal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina donde se realiza la operación'
           type: 'string'
       example:
         codigoCuentaCliente: '01020363560100068953'
@@ -9089,17 +9089,17 @@ components:
       type: object
       properties:
         numeroPlanilla:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de referencia de la transacción realizada'
           type: 'integer'
           format: int32
         indicadorTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         divisaAbono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de moneda según transacción'
           type: 'string'
         timestamp:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida corresponde al Timestamp de la transaccion realizada'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -9139,66 +9139,66 @@ components:
       type: object
       properties:
         codigoCuentaCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         importe:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'ubicar valor en pantalla'
           type: 'number'
         codigoOperacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Código de Operación por defecto, cambia según tipo de moneda'
           type: 'integer'
           format: int32
         numeroCheque:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         fechaValor:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         carta:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Valor por defecto'
           type: 'integer'
           format: int32
         autorizar:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Por defecto en blanco'
           type: 'string'
         guardarAnotado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco**'
           type: 'string'
         divisaCargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de moneda según la transacción'
           type: 'string'
         numeroRetencion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         fechaHoraOperOff:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha del día + SS por defecto'
           type: 'string'
         fechaGiro:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         literal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto en blanco'
           type: 'string'
         numeroLibreta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Por defecto'
           type: 'integer'
           format: int32
         serial:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Serial compuesto por 13 dígitos: 9(por defecto)6278(código de operación según moneda (timestamp de 8 posiciones)'
           type: 'string'
         numeroPlanilla:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'integer'
           format: int32
         indicadorTitular:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Campo variable S para titular N para no Titular'
           type: 'string'
         user:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Usuario que realiza la operación'
           type: 'string'
         terminal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina donde se realiza la operación'
           type: 'string'
       example:
         codigoCuentaCliente: '01020749510000366508'
@@ -9300,7 +9300,7 @@ components:
       type: object
       properties:
         numeroCheque:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla (número de cheque)'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -9710,22 +9710,22 @@ components:
       type: object
       properties:
         indicadorOperacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Tipo de Operación Consulta -C'
           type: 'string'
         numeroPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona'
           type: 'string'
         fechaDesde:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha de inicio '
           type: 'string'
         fechaHasta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha Fin'
           type: 'string'
         estatusOperacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de operación Todas - T'
           type: 'string'
         oficinaDestino:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina a consultar'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -9763,43 +9763,43 @@ components:
       type: object
       properties:
         opcion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de opción (Alta -A)'
           type: 'string'
         numSolicitud:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         tipoDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Doc'
           type: 'string'
         numDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Ubicar en pantalla Documento'
           type: 'string'
         numCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona Obtenido de la transacción de consulta'
           type: 'string'
         productoSolicitado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Grupo de producto Tabla producto'
           type: 'string'
         subprodSolicitado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Producto (Tabla Subproducto)'
           type: 'string'
         indPertenecerPqt:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         pqtProductoSoli:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         spqtPrductoSoli:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         estadoSolicitud:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         divisa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla MOneda'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -9855,76 +9855,76 @@ components:
       type: object
       properties:
         numeroSolicitud:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de solicitud obtenido de la B030'
           type: 'string'
         producto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Grupo de Producto'
           type: 'string'
         subproducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Producto'
           type: 'string'
         divisa1:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Ubicar en pantalla Moneda'
           type: 'string'
         divisa2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         entidadCentroConta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         fechaVencimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoVencimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numVencimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         limiteCuenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indPreasigndada:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoCuenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroConvenio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         chequeInicio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         chequeFin:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nuevaLibreta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         tarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         canalVenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         oficialVenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         oficialOpera:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         oficialComer:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         dna:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codOnt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -10572,115 +10572,115 @@ components:
       type: object
       properties:
         indicador:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo acción (A – Alta, M – Modificación, B – Baja)'
           type: 'string'
         numeroCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona'
           type: 'string'
         secuenReferPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'valor por defecto'
           type: 'string'
         tipoDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla Tipo de documento'
           type: 'string'
         numeroDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla tiporelacion'
           type: 'string'
         tipoRelacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Ver tabla tiporelacion'
           type: 'string'
         primerApellidoContra:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Primer apellido'
           type: 'string'
         segundApellidoContra:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Segundo Apellido'
           type: 'string'
         nombreContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Nombre'
           type: 'string'
         indicadorCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         prefijoTelefono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla código de área (tabla)'
           type: 'string'
         telefonoContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Numero de teléfono'
           type: 'string'
         prefijoTelCelu:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Código de área (tabla)'
           type: 'string'
         tlfCelularReferenc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Numero de Celular'
           type: 'string'
         tipoDocumento2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         numeroDocumento2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         tipoRelacion2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         primerApellidoCont2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         segundApellidoCont2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         nombreContrato2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         indicadorCliente2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         prefijoTelefono2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         telefonoContrato2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         prefijoTelCelu2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         tlfCelularRefere2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         tipoDocumento3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         numeroDocumento3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         tipoRelacion3:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Ubicar en pantalla'
           type: 'string'
         primerApellidoCont3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         segundApellidoCont3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         nombreContrato3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         indicadorCliente3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         prefijoTelefono3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         telefonoContrato3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         prefijoTelCelu3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         tlfCelularRefere3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla'
           type: 'string'
         timeStampModif:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida Timestamp modificación'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -13027,142 +13027,167 @@ components:
       type: object
       properties:
         numeroPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor de salida Numero de persona'
           type: 'string'
         tipoDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en la pantalla Tipo de Documento'
           type: 'string'
         numeroDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Numero de Documento'
           type: 'string'
         secuenciaDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nombreFantasia:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Aplica solo para persona Jurídica, para natural en blanco'
           type: 'string'
         primerApellido:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla (Primer Apellido)'
           type: 'string'
         segundoApellido:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla (Segundo Apellido)'
           type: 'string'
         nombrePersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla (Primer Nombre)'
           type: 'string'
         fechaIngreso:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla (Fecha del día)'
           type: 'string'
         agrdb1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Nota agrdb1: este campo debe estar compuesto por:
+                        4 primeros bytes sucursal administradora (oficina)
+                        1 byte Estado civil 1 byte Sexo
+                        1 byte tipo de persona (natural F – Jurídico'
           type: 'string'
         fechaNacimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Fecha de nacimiento'
           type: 'string'
         fechaInicioActivid:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha del dia'
           type: 'string'
         agregadoBasicos2:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo compuesto Ver nota'
           type: 'string'
         agrupacionOficiales:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         agrdb3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Nota agrdb3: este campo debe estar compuesto por:
+                        3 bytes Nacionalidad (tabla de países Ej: ve = 432)
+                        3 bytes país de residencia (tabla de países Ej: Ve = 432)
+                        3 bytes en blanco (sector)
+                        2 bytes Tipo de ocupación (tabla de profesiones_sudeban)
+                        8 bytes tipo de actividad (tabla de actividad económica)'
           type: 'string'
         tiempoDeResidencia:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         formaJuridica:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en tabla'
           type: 'string'
         naturalezaJuridica:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         unidadDeNegocio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valores por defecto 330 Persona Jurídica – 340 Persona natural'
           type: 'string'
         codigoSujeto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         marcaBancaPrivada:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nivelDeAcceso:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         estadoPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         condicionCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicaYCodemp:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valores por defecto'
           type: 'string'
         timesampBasicos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida Timestamp modificación datos basicos'
           type: 'string'
         expedidoPor:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaDeVencimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto Fecha maxima'
           type: 'string'
         marcaPadron:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         condDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoPais:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fecExpedicionDoc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         lugarExpedicionDoc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         timestampDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida Timestamp modificación datos Documento'
           type: 'string'
         domre1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar datos en pantalla'
           type: 'string'
         domre2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Nota Domre1: Este campo debe estar compuesto por:
+                        3 bytes Tipo de domicilio (tabla de tipodomicilio)
+                        2 bytes tipo de vía (Tabla 0314)
+                        50 bytes nombre de la calle
+                        4 bytes tipo de construcción (tabla)
+                        4 bytes tipo de núcleo (tabla)
+                        4 bytes Sucursal casilla correo (blanco)
+                        10 bytes Casilla Apartado (blanco)
+                        7 bytes Nombre de la localidad (Tabla)'
           type: 'string'
         rutaCartero:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         domre3:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo Compuesto Ver Nota Ubicar datos en pantalla'
           type: 'string'
         fechaVerificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha del día'
           type: 'string'
         agregadoDomicilio4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         obser1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Nota Obser1: este campo debe estar compuesto por: 
+                        35 bytes descripción construcción
+                        25 bytes complemento dirección 1
+                        24 bytes descripción núcleo
+                        12 bytes Entre Calle y Avenida
+                        4 bytes espacios en blanco'
           type: 'string'
         obser2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Nota Obser2: este campo debe estar compuesto:
+                        8 bytes complemento direccion2 
+                        40 bytes correo electrónico 
+                        6 bytes Complemento zona postal o apartado correos
+                        46 bytes complemento observaciones'
           type: 'string'
         timestampDomicilio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida Timestamp modificación Domicilio'
           type: 'string'
         secuenciaDomicilio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         agregadoTelefonico:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         timestampTelefono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida Timestamp modificación Telefono'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -13296,241 +13321,241 @@ components:
       type: object
       properties:
         codigoDeEntidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Entidad 0102 valor por defecto'
           type: 'string'
         centroDeAltaCuent:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Oficina que da de alta a la tarjeta'
           type: 'string'
         codigoDeProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Producto Ver tabla código de producto pampa'
           type: 'string'
         codigoSubproducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla SubProducto Ver tabla código subproducto pampa'
           type: 'string'
         codCondicionesAso:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDeCampaña:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDeConvenio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDePromocion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nroPersonaTitular:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'umero de persona Titular de la cuenta'
           type: 'string'
         nroPersonaAvalista:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indCtaEmpresa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         indEstNombreEmp:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         nomEmpEstampacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         codRegimenFiscal:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto*'
           type: 'integer'
           format: int32
         formaDePago:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         indSitDeContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         grupoDeLiquidacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         grupoDeCuota:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         oficialDeVenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         claveMonedaPrincip:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         limCreditoPrincipa:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         impFijoPagoApla1:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         limCreCompraCuot1:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         limGlobalccuotas:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         claveMonedaSecunda:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         limCreditoSecundar:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         impFijoPagoApla2:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         limCreCompraCuot2:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         limGlobalccuotas2:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         cuentaCargo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' '
           type: 'string'
         claveMonedaCtacar1:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         indDomcarCdto:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         codigoFormatoEsta:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         ctaCargoTarjeta1:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         claveMonedaTarcta1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cuenta principal – Cuenta que estará asociada a la tarjeta'
           type: 'integer'
           format: int32
         indActivoPasivo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto según la cuenta escogida Ver Tabla Moneda'
           type: 'string'
         ctaCargoTarjeta2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         claveMonedaTarcta2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         indActivoPasivo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numereoPersonaTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona Titular de la tarjeta'
           type: 'string'
         calParticipacionTj:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor obtenido según la cuenta seleccionada'
           type: 'string'
         indDeTipoTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Ver tabla TipoPampa'
           type: 'integer'
           format: int32
         codDeMarcarTarjet:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Marca Ver tabla TipoPampa'
           type: 'integer'
           format: int32
         nomEstampacionTarj:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Nombre estampacion'
           type: 'string'
         idenEmpleadoTarjet:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         panAsociadoTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDeBarrasTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         refDeFotoTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         datosDeEstampTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         envioDeEstampTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         envioDePinTarjet:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codCondEstampacTj:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla Tipo Pampa Según la tarjeta seleccionada se valida el código de estampacion'
           type: 'string'
         codigoPromocionTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         claveMoneda1Tarje:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla moneda - Va asociada con el nro de cuenta'
           type: 'integer'
           format: int32
         limDiarioCajero1T:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         maxNumOpeDia1T:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         claveMoneda2Tarje:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida que indica la cuenta contrato de la tarjeta'
           type: 'integer'
           format: int32
         limDiarioCajero2T:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha del día '
           type: 'integer'
           format: int32
         maxNumOpeDia2T:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'integer'
           format: int32
         cuentaDeLaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         desClaveMoneda:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaDeAltaContra:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         panDeLaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Pan de la tarjeta Ver Nota'
           type: 'string'
         fechaDeAltaTarjet:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Fecha del día'
           type: 'string'
         fechaCaducidadTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo de salida'
           type: 'string'
         desReducMarcaTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         desReducTipoTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indSituacionDeTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Valor por defecto'
           type: 'integer'
           format: int32
         tipoDeBonificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -13631,41 +13656,41 @@ components:
       type: object
       properties:
         panDeLaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Número de tarjeta'
           type: 'string'
         indDeOrdenDeCta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cuentaDeCargoNuev:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo cuenta antigua Ver nota'
           type: 'string'
         cuentaDeCargoAntg:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo Cuenta Nueva Ver nota'
           type: 'string'
         claveDeLaMoneda:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de moneda de la cuenta según lo seleccionado'
           type: 'integer'
           format: int32
         indTipoDeCtacargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indDeCccAjena:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         productoDeCcc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Producto'
           type: 'string'
         subproductoDeCcc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Subproducto'
           type: 'string'
         indActivoPasivo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaDeAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Ubicar en pantalla Fecha Alta'
           type: 'string'
         fechaDeBaja:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Ubicar en pantalla Fecha Baja'
           type: 'string'
         controlDeConcurren:
           description: '**Aqui va la descripcion del campo**'
@@ -13719,69 +13744,69 @@ components:
       type: object
       properties:
         codigoEntidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Entidad por defecto 0102'
           type: 'string'
         numeroSecuencial:
           description: '**Aqui va la descripcion del campo**'
           type: 'integer'
           format: int32
         centroAltaCtaTar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina que da el alta a la tarjeta'
           type: 'string'
         cuentaDeTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Cuenta contrato de la tarjeta'
           type: 'string'
         numeroDeTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDeComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fecIniModificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fecFinModificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaModificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         horaModificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoAcceso:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         nombreProceso:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         descripcionProceso:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tablaModificada:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nombreCampo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         valorActual:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         valorAnterior:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         usuario:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         terminal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         masDatos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
       example:
         codigoEntidad: '0102'
@@ -13812,7 +13837,7 @@ components:
       type: object
       properties:
         numeroPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona'
           type: 'string'
       example:
         numeroPersona: '25646766'
@@ -13891,233 +13916,233 @@ components:
       type: object
       properties:
         codigoDeEntidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Entidad 0102 por defecto'
           type: 'string'
         centroAltaCtaTar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina que da de Alta la tarjeta'
           type: 'string'
         cuentaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de contrato de la tarjeta'
           type: 'string'
         numeroTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         fechaAltaCtaTar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Fecha Alta'
           type: 'string'
         codigoProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Producto'
           type: 'string'
         codigoSubproducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Subproducto'
           type: 'string'
         codigoCondicionEco:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         codigoCampania:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         codigoConvenio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         formaPagoSoloCre:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         fechaUltimoCargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida Por defecto ubicar en pantalla Ultimo estado'
           type: 'string'
         fechaBaja:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla F. Baja'
           type: 'string'
         motivoBaja:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida // Ubicar en pantalla Motivo Baja'
           type: 'string'
         formaPagoTemporal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         fechaIniForpago:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaFinForPago:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indEstadoCtaTar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         fecUltiCambesta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indBloqueoActivi:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indBloqueoConsul:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indCuentaEmpresa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         indNombreDeEmpre:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         nombreEmpresa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indSituaContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         fecResoluCuenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indCuentaTraspas:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         grupoLiquidacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         grupoProcesoCuota:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         restriccionMesEmis:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoBonificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Valor por defecto'
           type: 'string'
         calidadDeParticipa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDePromocion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indPeriodifiCuota:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroMesesDistCobcuo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         codiRegimenFiscal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         contadorDeFacturac:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         contConcuContra:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         contrConcuMoneda1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         contrConcuMoneda2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         bloqueoActiviCta1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         comentarioBloqueo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaUltimoBloqueo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorDeBloqueo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         bloqueoActiviCta2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         comentarioBloqueo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaUltimoBloqueo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorDeBloqueo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         bloqueoActiviCta3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         comentarioBloqueo3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaUltimoBloqueo3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorDeBloqueo3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         bloqueoActiviCta4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         comentarioBloqueo4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaUltimoBloqueo4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorBloqueo4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         bloqueoActiviCta5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         comentarioBloqueo5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaUltimoBloqueo5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorBloqueo5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         claveMoneda1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         impfijPagoAplaza1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         impfijPagoTempo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         claveMoneda2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         impfijpagoAplaza2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         impfijPagoTempo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         indCargoCargoCrdt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoFormato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto*'
           type: 'string'
         oficinaGestora:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
       example:
         codigoDeEntidad: '0102'
@@ -14208,43 +14233,43 @@ components:
       type: object
       properties:
         panTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Número de tarjeta'
           type: 'string'
         indOrdenCta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cuentaCargoNuev:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo cuenta antigua Ver nota'
           type: 'string'
         cuentaCargoAntg:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo Cuenta Nueva Ver nota'
           type: 'string'
         claveMoneda:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de moneda de la cuenta según lo seleccionado'
           type: 'string'
         indTipoCtaCargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indCCCAjena:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         productoCCC:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         subproductoCCC:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Producto'
           type: 'string'
         indActivoPasivo:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Ubicar en pantalla Subproducto'
           type: 'string'
         fechaAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaBaja:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Ubicar en pantalla Fecha Alta'
           type: 'string'
         controlConcurren:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Fecha Baja'
           type: 'string'
       example:
         panTarjeta: '5899415532648717'
@@ -14602,41 +14627,41 @@ components:
       type: object
       properties:
         accion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de Opción (Consulta – C, Afiliación – A, Modificación – M, Baja – B)'
           type: 'string'
         tipoDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo documento'
           type: 'string'
         numeroDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla Documento cedula con 10 posiciones'
           type: 'string'
         instrumentoComision:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Entidad oficina DoCuenta número de cuenta'
           type: 'string'
         numeroTelefono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Numero ver Nota'
           type: 'string'
         idSensibilidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         codigoRespuesta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         mensajeRespuesta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         pinBlockBidireccional:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo de salida'
           type: 'string'
         montoMaximoSenssibilidad1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoMaximoSenssibilidad2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoMaximoSenssibilidad3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
       example:
         accion: C
@@ -14669,41 +14694,41 @@ components:
       type: object
       properties:
         accion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de Opción (Consulta – C, Afiliación – A, Modificación – M, Baja – B)'
           type: 'string'
         tipoDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo documento'
           type: 'string'
         numeroDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla '
           type: 'string'
         instrumentoComision:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Entidad oficina DoCuenta número de cuenta'
           type: 'string'
         numeroTelefono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Numero ver Nota'
           type: 'string'
         idSensibilidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         codigoRespuesta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         mensajeRespuesta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         pinBlockBidireccional:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         montoMaximoSenssibilidad1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoMaximoSenssibilidad2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoMaximoSenssibilidad3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
       example:
         accion: A
@@ -14790,28 +14815,28 @@ components:
       type: object
       properties:
         numeroPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona'
           type: 'string'
         codigoDeEntidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Entidad'
           type: 'string'
         codigoDeOficina:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Oficina'
           type: 'string'
         numeroDeContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Dc Cuenta'
           type: 'string'
         codigoDeProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'digo de producto de la cuenta Ver tabla Codigo productoo'
           type: 'string'
         codigoSubproducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'odigo de subproducto de la cuenta // Ver tabla Codigo subproducto'
           type: 'string'
         calPar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         ordenDePartic:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         segLlamada:
           description: '**Aqui va la descripcion del campo**'
@@ -14844,10 +14869,10 @@ components:
           description: '**Aqui va la descripcion del campo**'
           type: 'string'
         numeroPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona Campo de salida'
           type: 'string'
         secuenciaPerscargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'integer'
           format: int32
         tipoParentesco:
@@ -15360,40 +15385,40 @@ components:
       type: object
       properties:
         cuenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de cuenta creado'
           type: 'string'
         divisa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Moneda de la cuenta'
           type: 'string'
         rangoEstimado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defect'
           type: 'string'
         motivoServicio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Motivos por los cuales solicita los servicios- Ver tabla MotivoSolicitud'
           type: 'string'
         paisOrigen:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla País Origen - Ver Tabla Paises'
           type: 'string'
         paisDestino:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla País Destino - Ver Tabla Paises'
           type: 'string'
         observaciones1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         observaciones2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         accion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         proTransacMens:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero promedio de transacciones mensuales Ver Nota'
           type: 'string'
         origenFondos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Origen de los fondos'
           type: 'string'
         destinoFondos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Destino de los fondos'
           type: 'string'
         promedioMesMovliza:
           description: '**Aqui va la descripcion del campo**'
@@ -15483,130 +15508,130 @@ components:
       type: object
       properties:
         entidadContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Entidad bancaria (0102 valor por defecto)'
           type: 'string'
         oficinaContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina bancaria (Oficina en la que se abre la cuenta)'
           type: 'string'
         numeroContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de cuenta (12 digitos)'
           type: 'string'
         entidadCodelo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         oficinaCodelo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         datosCccModelo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Grupo de producto'
           type: 'string'
         codigoSubproducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla producto'
           type: 'string'
         indDisponibilidaD:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indManconumada:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         motivoBaja:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         opcionDeseada:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         contiuarInsert:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         datosCliente1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         ordenCliente1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         responsabilidad1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         datosCliente2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         ordenCliente2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         responsabilidad2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         datosCliente3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         ordenCliente3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         responsabilidad3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         datosCliente4:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo compuesto Ver nota'
           type: 'string'
         ordenCliente4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         responsabilidad4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         datosCliente5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         ordenliente5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         responsabilidad5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         datosCliente6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         ordenCliente6:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo compuesto Ver nota'
           type: 'integer'
           format: int32
         responsabilidad6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         datosCliente7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         ordenCliente7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         responsabilidad7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         datosCliente8:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         ordenCliente8:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         responsabilidad8:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
       example:
@@ -16238,157 +16263,157 @@ components:
       type: object
       properties:
         indicadorMasDatos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoConvenio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         referencia:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Numero de planilla Ver Nota '
           type: 'string'
         montoDelPago:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Total planilla'
           type: 'number'
         montoEfectivo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Efectivo'
           type: 'number'
         montoChequesBdv:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cheques BDV'
           type: 'number'
         montoChequesOb:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cheq. Otros Bco'
           type: 'number'
         montoCargoCuenta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         montoTdcBdv:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         montoTdcOtrosBancos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         numeroPlanilla:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla No Planilla Ver Nota'
           type: 'string'
         indicadorLine:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         referenciaAdc1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         referenciaAdc2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         referenciaAdc3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cuentaChequeBdv1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cuenta'
           type: 'string'
         montoChequesBdv1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Monto'
           type: 'number'
         numeroChequeBdv1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cheque'
           type: 'integer'
           format: int32
         dnaChequeBdv1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Dna'
           type: 'integer'
           format: int32
         tipoCheque:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo de cheque'
           type: 'string'
         cuentaChequeBdv2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cuenta'
           type: 'string'
         montoChequesBdv2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Monto'
           type: 'number'
         numeroChequeBdv2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cheque'
           type: 'integer'
           format: int32
         dnaChequeBdv2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Dna'
           type: 'integer'
           format: int32
         tipoCheque2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo de cheque'
           type: 'string'
         cuentaChequeBdv3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cuenta'
           type: 'string'
         montoChequesBdv3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Monto'
           type: 'number'
         numeroChequeBdv3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cheque'
           type: 'integer'
           format: int32
         dnaChequeBdv3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Dna'
           type: 'integer'
           format: int32
         tipoCheque3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo de cheque'
           type: 'string'
         cuentaCargo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoCuentaCargo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         cuentaCargo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoCuentaCargo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         tdcBdv1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         vencimientoTdcBdv1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoTdcBdv1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         tdcBdv2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         vencimientoTdcBdv2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoTdcBdv2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         tdcOb1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         vencimientoTdcOb1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoTdcOb1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         tdcOb2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         vencimientoTdcOb2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         montoTdcOb2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'number'
         filler:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -16511,13 +16536,13 @@ components:
       type: object
       properties:
         transaccionBdv:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         transaccionSpise:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto (SRLG Contribuyente especial)'
           type: 'string'
         codigoRespuesta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida por defecto'
           type: 'string'
         compromisoPago:
           description: '**Aqui va la descripcion del campo**'
@@ -17119,13 +17144,13 @@ components:
       type: object
       properties:
         transaccionBdv:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         transaccionSpise:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto (SRLG Contribuyente especial)'
           type: 'string'
         codigoRespuesta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida por defecto'
           type: 'string'
         compromisoPago:
           description: '**Aqui va la descripcion del campo**'
@@ -17475,16 +17500,16 @@ components:
       type: object
       properties:
         numeroTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Pan de tarjeta que fue dada de alta'
           type: 'string'
         producto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Producto Ver tabla producto'
           type: 'string'
         subproducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Subproducto Ver tabla Subproducto'
           type: 'string'
         estado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de Opción (Entregada - E) Valor por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -17583,19 +17608,19 @@ components:
       type: object
       properties:
         usuario:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Usuario por defecto'
           type: 'string'
         entidadCentro:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto ver nota'
           type: 'string'
         subtotal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         globalCajComp:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         sesionHoyAyer:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Sesión de consulta Ver Nota'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -17708,24 +17733,24 @@ components:
       type: object
       properties:
         numDeValidadora:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto Ver Nota'
           type: 'string'
         importeAlDebe:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Valor a Entregar'
           type: 'integer'
           format: int32
         importeAlHaber:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Valor a entregar Ver Nota'
           type: 'integer'
           format: int32
         observaciones:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         destino:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         terminalContable:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Moneda'
           type: 'string'
         libre:
           description: '**Aqui va la descripcion del campo**'
@@ -17757,44 +17782,44 @@ components:
       type: object
       properties:
         panDeLaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Pan de la tarjeta nueva'
           type: 'string'
         indDeOrdenDeCta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla OrdenCta Ver nota'
           type: 'string'
         cuentaDeCargoNuev:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cuentas'
           type: 'string'
         cuentaDeCargoAntg:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Cuenta principal'
           type: 'string'
         claveDeLaMoneda:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla moneda según la cuenta seleccionada'
           type: 'integer'
           format: int32
         indTipoDeCtacargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indDeCccAjena:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         productoDeCcc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         subproductoDeCcc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indActivoPasivo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaDeAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Valor por defecto'
           type: 'string'
         fechaDeBaja:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         controlDeConcurren:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Timestamp modificacion'
           type: 'string'
       example:
         panDeLaTarjeta: '5899417177561296'
@@ -17834,52 +17859,52 @@ components:
       type: object
       properties:
         codigoDeEntidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Entidad 0102 Valor por defecto'
           type: 'string'
         centroDeAltaCuent:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina que da el alta a la tarjeta'
           type: 'string'
         cuentaDeLaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Cuenta contrato de la tarjeta'
           type: 'string'
         codmarcaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         descrdeLaMarca:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         indTipoTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         descrtipoTjtReduc:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         numeroDeTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         fechaDeAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         indsituacionTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         dessituacionTjt:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         nombreEstampacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         codigoDeBloqueo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         fechaDeBaja:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         descripcionBloqueo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         indUltimaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -17915,7 +17940,7 @@ components:
       type: object
       properties:
         panDeLaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de Pan de la tarjeta'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -17977,130 +18002,130 @@ components:
       type: object
       properties:
         codigoEntidad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Entidad 0102'
           type: 'string'
         centroAltaCtaTarj:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina que da alta de la tarjeta'
           type: 'string'
         cuentaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Cuenta contrato de la tarjeta Antigua'
           type: 'string'
         numeroPersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona'
           type: 'string'
         calidadParticipa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver Calidad partipacion3ti'
           type: 'string'
         indTipoTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla tipo tarjeta'
           type: 'string'
         codigoMarcaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla Marca Tarjeta'
           type: 'string'
         nombreEstampacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Nombre de estampación de la tarjeta'
           type: 'string'
         idDeEmpleado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         panAsociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Pan de Tarjeta Antigua'
           type: 'string'
         codigoBarras:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         referenciaFoto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         datosDeEstampac1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         datosDeEstampac2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         indEnvioPlasticoE:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         centroEnvio1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         indEnvioCartaPin:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         centroEnvio2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         codCondEstampacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         codigoPromocion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         claveMoneda1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         claveMoneda2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         limiteDiarioCaj1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         limiteDiarioCaj2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         maxNumOperCajero1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         maxNumOperCajero2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         cuentaDomTarjeta1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Cuenta asociada a la tarjeta'
           type: 'string'
         monedaCtadom1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         indActivoPasivo1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         cuentaDomTarjeta2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         monedaCtadom2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         indActivoPasivo2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         fechaAltaCtatar:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         panTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Pan de la tarjeta nuevo'
           type: 'string'
         fechaCaducidTarjet:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         descrMarcaReducida:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         descrRedTipoTarje:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         indSituacinTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         fechaCobroCuota:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         descrClaveMoneda1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         descrClaveMoneda2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         tipoBonificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -18162,7 +18187,7 @@ components:
       type: object
       properties:
         panDeLaTarjeta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tarjetas Cliente (Este campo se llena según la tarjeta que se seleccione en el campo)'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -18183,13 +18208,13 @@ components:
       type: object
       properties:
         codigoPinPad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Serial del PinPad '
           type: 'string'
         user:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         terminal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
       example:
         codigoPinPad: NP62022698
@@ -18209,22 +18234,22 @@ components:
       type: object
       properties:
         funcionRutina:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroDePan:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Pan de la tarjeta'
           type: 'string'
         tipoFranquicia:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         pinblock:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Este valor se obtiene en la respuesta de la transacción MPAN'
           type: 'string'
         codigoRetorno:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         serialPinpad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Serial del pinpad'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -18338,130 +18363,130 @@ components:
       type: object
       properties:
         numeroCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de personas'
           type: 'string'
         tipoDeDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroDeDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         secuenciaIdentificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         calidadParticipe:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         entidadContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         oficinaContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numeroContrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDeProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoDeSubprod:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         calidadParticipac:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorSeg:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nombreDeFantasia:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         primerApellido:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         segundoApellido:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nombreCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaNacimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoDePersona:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto*'
           type: 'string'
         estadoDelCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         condicionCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nivelDeAcceso:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorRelacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorContratos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorDeGrupo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicadorDeAvisos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicador1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicador2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicador3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicador4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         indicador5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoDeVia:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         calle:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         observaciones1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         observaciones2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         bloqueNumero:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         localidadCiudad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         comuna:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoPostal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         rutaCartero:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoProvincia:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoPais:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         marcaNormalizacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -19013,123 +19038,130 @@ components:
       type: object
       properties:
         campoAltaBajaModi:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Opción A - Alta, M - Modificación, B- Baja'
           type: 'string'
         numeroDeCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona'
           type: 'string'
         secuenciaDomicilio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         secuenciaTelefono:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         marcaDeEmpleado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nombreDeSuEmpresa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla Nombre de empresa'
           type: 'string'
         tipoDeActividad:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla Tabla tipoactividad'
           type: 'string'
         ramoDeLaEmpresa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla tabla ramoempresa'
           type: 'string'
         cargoEnLaEmpresa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla Tabla cargoempresa'
           type: 'string'
         fechaIngresoEmpres:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla Fecha ingreso'
           type: 'string'
         marcaRelacDependen:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor enviado en duro (001 - Dependencia)'
           type: 'string'
         tipoRelacionLabora:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoEmpresaEmplead:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         personasACargo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Natural no aplica Solo jurídicos'
           type: 'integer'
           format: int32
         numeroDeHijos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Cantidad de Hijos'
           type: 'integer'
           format: int32
         apellNombreMadre:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         apellNombrePadre:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Nota Datos del Conyugue “apellNombrePadre”: este campo debe estar compuesto por:
+                        1 byte tipo de documento
+                        11 bytes numero de cedula (completando con 0 a la izquierda para llenar el campo)
+                        12 bytes primer apellido
+                        12 bytes segundo apellido
+                        10 bytes primer nombre
+                        11 bytes segundo nombre
+                        3 bytes fuentes de ingreso (tabla)'
           type: 'string'
         regimenMatrimonial:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         numDocConyuge:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoDocConyuge:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         fechaFallecimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         tipoRelacBancocli:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nivelDeEstudios:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         estrato:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         lugarDeNacimiento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Falta por mapeo'
           type: 'string'
         profesion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tabla'
           type: 'string'
         ultimoTituloAdquir:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codActivSecundaria:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tabla'
           type: 'string'
         antigDomicilioante:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'integer'
           format: int32
         entidadDePrevision:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         usuarioAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Usuario que realiza la modificación o alta'
           type: 'string'
         fechaAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha de la modificación o alta'
           type: 'string'
         usuarioModificacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Usuario que realiza la modificación o alta'
           type: 'string'
         terminal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina'
           type: 'string'
         sucursal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina'
           type: 'string'
         timestamp:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida timestamp modificación Ver Nota'
           type: 'string'
         nombreProgra:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         user:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Usuario de la oficina que realiza la modificación'
           type: 'string'
       example:
         campoAltaBajaModi: M
@@ -20134,56 +20166,56 @@ components:
       type: object
       properties:
         opcion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo acción (A - Alta, M - Modificacion, B - Baja)'
           type: 'string'
         numeroCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de persona'
           type: 'string'
         numeroReferencia:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         codBancoReferencia1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Codigo de cuenta bancaria (Tabla según banco)'
           type: 'string'
         descripcionProductoReferencia1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numeroProductoReferencia1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         cifraPromedio1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla campo de texto'
           type: 'string'
         codBancoReferencia2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         descripcionProductoReferencia2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         numeroProductoReferencia2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         cifraPromedio2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         codBancoReferencia3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         descripcionProductoReferencia3:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Ubicar valor en pantalla'
           type: 'string'
         numeroProductoReferencia3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         cifraPromedio3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar valor en pantalla'
           type: 'string'
         usuarioAlta:
           description: '**Aqui va la descripcion del campo**'
           type: 'string'
         fechaAlta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Fecha del día'
           type: 'string'
         usuarioModificacion:
           description: '**Aqui va la descripcion del campo**'
@@ -21864,133 +21896,133 @@ components:
       type: object
       properties:
         accion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de acción (Consulta – C, Registrar – R, Modificar – M, Baja – B, Desafiliar - D)'
           type: 'string'
         tipoDeDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'ubicar en pantalla Tipo Documento'
           type: 'string'
         rifComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Documento*'
           type: 'string'
         cantiDeProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cantiDeAutorizado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'valor según la cantidad de intervinientes'
           type: 'string'
         estadoPerfil:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Estatus del cliente'
           type: 'string'
         nombreDelComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         mailCorreo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto, Campo 97 debe llevar el código de la oficina'
           type: 'string'
         ipComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ip del equipo que realiza la transacción'
           type: 'string'
         cod1IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac1YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod2IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac2YCi2Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado2TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod3IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac3YCi3Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'ampo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod4IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac4YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod5IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac5YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado5TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod6IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac6YCi6Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado6TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod7IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac7YCi7Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado7TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoRetorno:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         descripcionDelRC:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         datosAdicional1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         datosAdicional2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         user:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         terminal:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
       example:
         accion: C
@@ -22085,127 +22117,127 @@ components:
       type: object
       properties:
         accion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de acción (Consulta – C, Registrar – R, Modificar – M, Baja – B, Desafiliar - D)'
           type: 'string'
         tipoDeDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento'
           type: 'string'
         rifComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Documento'
           type: 'string'
         cantiDeProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cantiDeAutorizado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor según la cantidad de intervinientes '
           type: 'string'
         estadoPerfil:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Estatus del cliente'
           type: 'string'
         nombreDelComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: '*Campo de salida'
           type: 'string'
         mailCorreo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto, Campo 97 debe llevar el código de la oficina'
           type: 'string'
         ipComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ip del equipo que realiza la transacción'
           type: 'string'
         cod1IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac1YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod2IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac2YCi2Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado2TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod3IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac3YCi3Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod4IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac4YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod5IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac5YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado5TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod6IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac6YCi6Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado6TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto '
           type: 'string'
         cod7IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac7YCi7Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado7TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         codigoRetorno:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         descripcionDelRC:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         datosAdicional1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         datosAdicional2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -22306,127 +22338,127 @@ components:
       type: object
       properties:
         accion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de acción (Consulta – C, Registrar – R, Modificar – M, Baja – B, Desafiliar - D)'
           type: 'string'
         tipoDeDocumento:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento'
           type: 'string'
         rifComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Documento'
           type: 'string'
         cantiDeProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cantiDeAutorizado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'valor según la cantidad de intervinientes '
           type: 'string'
         estadoPerfil:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Estatus del cliente'
           type: 'string'
         nombreDelComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         mailCorreo:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo por defecto, Campo 97 debe llevar el código de la oficina'
           type: 'string'
         ipComercio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ip del equipo que realiza la transacción'
           type: 'string'
         cod1IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac1YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento '
           type: 'string'
         estado1TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod2IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'string'
         nac2YCi2Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado2TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod3IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac3YCi3Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta3:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod4IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac4YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado1TeleInstru3:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta4:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod5IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac5YCi1Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado5TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta5:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod6IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac6YCi6Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Tipo Documento y Documento'
           type: 'string'
         estado6TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo compuesto Ver nota'
           type: 'string'
         montoMinMaxYCta6:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         cod7IdProducto:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         nac7YCi7Asociado:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         estado7TeleInstru:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         montoMinMaxYCta7:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'valor por defecto'
           type: 'string'
         codigoRetorno:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         descripcionDelRC:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida'
           type: 'string'
         datosAdicional1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         datosAdicional2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor por defecto'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -22505,44 +22537,44 @@ components:
       type: object
       properties:
         opcion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de opción (Alta – A, Baja – B, modificación – M)'
           type: 'string'
         numeroDeCliente:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'umero de persona'
           type: 'string'
         secuenciaProvCte:
-          description: '**Aqui va la descripcion del campo**'
+          description: ' Valor por defecto'
           type: 'integer'
           format: int32
         tipoDeRegistro:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de registros Ver Nota'
           type: 'string'
         nombreRazonSocial:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Razón Social'
           type: 'string'
         codUbicacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla Provincia'
           type: 'string'
         codigoPais:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla de paises'
           type: 'string'
         nombreRazonSocial1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Razón Social'
           type: 'string'
         codUbicacion1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla Provincia'
           type: 'string'
         codigoPais1:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla de paises'
           type: 'string'
         nombreRazonSocial2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Razón Social'
           type: 'string'
         codUbicacion2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla Provincia'
           type: 'string'
         codigoPais2:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ver tabla de paises'
           type: 'string'
         usuarioAlta:
           description: '**Aqui va la descripcion del campo**'
@@ -22560,7 +22592,7 @@ components:
           description: '**Aqui va la descripcion del campo**'
           type: 'string'
         timestamp:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Campo de salida Timestamp de modificación. Debe ir lleno el campo con la opción modificación'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -24059,34 +24091,34 @@ components:
       type: object
       properties:
         numeroRemesa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Numero de referencia'
           type: 'string'
         tipoOperacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Tipo de Operación (Entrega – E, Recepción – R)'
           type: 'string'
         codigoOficina:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina que realiza la operacion'
           type: 'string'
         oficinaRelacionada:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Oficina que recibe la operacion'
           type: 'string'
         codigoDivisa:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Ubicar en pantalla Moneda'
           type: 'string'
         tasaCambio:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Valor de tasa BCV del dia'
           type: 'string'
         montoBolivares:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Monto en bolívares (Tasa de Cambio x Monto en Divisas)'
           type: 'string'
         montoDivisas:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Monto en dolares'
           type: 'string'
         firmaUno:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Observaciones Firma 1'
           type: 'string'
         firmaDos:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Observaciones Firma 2'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
@@ -24116,7 +24148,7 @@ components:
       type: object
       properties:
         identifOperacion:
-          description: '**Aqui va la descripcion del campo**'
+          description: 'Número de identificación de operación generado en la salida de la transacción EX11'
           type: 'string'
         user:
           description: '**Aqui va la descripcion del campo**'
